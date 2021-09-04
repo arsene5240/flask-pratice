@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/ping", methods=["GET"])
 def test():
-    return "pong"
+    return "pong ball"
 
 
 if __name__ == "__main__":
